@@ -35,6 +35,7 @@ type Revenue struct {
 	TrackNumber2 string `json:"tracknumber2"`
 	Expirydate   string `json:"expirydate"`
 	Paytype      string `json:"paytype"`
+	Effective    string `json:"effective"`
 }
 
 type Response struct {
